@@ -1,0 +1,22 @@
+transformers  #if we want to use hugging face API then we have to install transformer library
+transformers[sentencepiece]
+datasets
+sacrebleu     #it is a evalution matrix, for text summarization we use rouge matrix, for row matrix we have to install this library
+rouge_score
+py7zr
+pandas
+nltk
+tqdm
+PyYAML
+matplotlib
+torch
+notebook
+boto3
+mypy-boto3-s3
+python-box==6.0.2
+ensure==1.0.2
+fastapi==0.78.0
+uvicorn==0.18.3
+Jinja2==3.1.2
+
+-e .  #it will install setup.py file in which we are writing logic of the local package installation
